@@ -8,7 +8,7 @@ def oxford_comma(array)
     missing_last_word = array.pop
     array << "and"
     array << missing_last_word
-    array.join(", " while array[index])
+    array.join(", ")
   else
     missing_last_word = []
     missing_last_word = array.pop
