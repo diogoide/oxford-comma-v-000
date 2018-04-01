@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.size < 3
     array.join(" and ")
   elsif array.size == 3
-    array.pop = missing_last_word
+    missing_last_word = array.pop
     missing_last_word << "and"
     missing_last_word << "array.last"
     missing_last_word.join(", ")
