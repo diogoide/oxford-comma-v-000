@@ -14,7 +14,7 @@ def oxford_comma(array)
     missing_last_word = array.pop
     array << "and"
     array << missing_last_word
-    sorted_Array = []
+    sorted_array = []
     array.sort = sorted_array
     sorted_array.join(", ")
   end
